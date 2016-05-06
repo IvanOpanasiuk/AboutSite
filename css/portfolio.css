@@ -1,0 +1,116 @@
+.box-right {
+  float: right;
+  width: 700px;
+}
+
+.box-right h1 {
+  margin-bottom: 23px;
+}
+
+.content-title{
+  margin:0;
+  padding:0;
+  font-size:35px;
+  color:#414141;
+  font-weight:500;
+  line-height:1.2;
+}
+
+.portfolio__item {
+  display: inline-block;
+  vertical-align:top;
+  overflow: hidden;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  background: #fff;
+  box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  width: 220px;
+}
+.portfolio__item:nth-child(3n) {
+ margin-right: 0;
+  
+}
+.portfolio__item:hover {
+  box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.3);
+}
+.gallery__avatar-pic {
+  width: 100%;
+  max-width: 220px;
+  max-height: 172px;
+  display: block;
+}
+.gallery__info {
+  padding: 20px 18px;
+  display: block;
+  text-decoration: none;
+}
+.gallery__info :hover {
+  color: #e85f61;
+  cursor: pointer;
+}
+.gallery__info-title {
+  color: #33c1e3;
+  font-size: 21px;
+  line-height: 27px;
+  font-weight: 500;
+}
+.gallery__info-title:hover {
+  color: #e85f61;
+  font-size: 21px;
+  line-height: 27px;
+  font-weight: 500;
+  -webkit-transform: scale3d(0.9, 0.9, 1);
+    transform: scale3d(0.9, 0.9, 1);
+}
+.gallery__info-presentation {
+  color: #414141;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.gallery__info-presentation:hover {
+  color: #414141;
+  font-weight: 400;
+}
+.gallery__info-box {
+  position: relative;
+  margin-bottom: 0;
+  font-size: 14px;
+  color: #aeaeae;
+  font-family: 'fira_sansregular';
+  font-family: 'fira_sansbold';
+}
+.gallery__info-box:hover {
+  color: #727272;
+}
+.gallery__info-box:before {
+  content: "";
+  background: url(../images/icons/ico_land.png) 0px -1px;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  padding-right: 12px;
+  width: 15px;
+  height: 16px;
+  display: inline-block;
+  content: "";
+}
+
+.gallery__info-box-app-m:before{
+  background: url(../images/icons/ico_land.png) 0px -22px;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  padding-right: 12px;
+  width: 15px;
+  height: 16px;
+}
+
+.gallery__info-box-app:before{
+  background: url(../images/icons/ico_land.png) 0px 0px;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  padding-right: 12px;
+  width: 15px;
+  height: 16px;
+}

@@ -1,0 +1,89 @@
+.about {
+	position: relative;
+	margin-top: 0px;
+}
+.about__left {
+	float: left;
+	padding-left:27px;
+}
+.about__photo {
+	border: 5px solid #fff;
+	border-radius: 50%;
+	width: 220px;
+	height: 220px;
+	overflow: hidden;
+ }
+.about__photo {
+ 	-moz-transition: all 1s ease-out;
+ 	-o-transition: all 1s ease-out;
+ 	-webkit-transition: all 1s ease-out;
+ }
+
+.container {
+	width: 960px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+.about__right {
+	width: 370px;
+	/*overflow: hidden;*/
+	float: right;
+}
+.content-title{
+	margin:0;
+	padding:0;
+	font-size:35px;
+	color:#414141;
+	font-weight:500;
+	line-height:1.2;
+}
+.about__text {
+	height: 310px;
+	width: 365px;
+	overflow: auto;
+	font-size:18px;
+	font-weight: 300;
+	color:#646464;
+  margin-bottom:60px;
+}
+.about__resume {
+  	display: inline-block;
+  	float:right;
+}
+.about__resume-link {
+	position:relative;
+	text-decoration: none;
+	text-align: right;
+	padding:10px 25px;
+	border-radius: 20px;
+	font-size:14px;
+	font-weight: 500;
+	border: 2px solid #e85f61;
+	color: #e85f61;
+	}
+.about__resume-link:before {
+  	content: "";
+    position: relative;
+  	background: url(../images/icons/download1.png)no-repeat;
+  	width: 14px;
+  	height: 14px;
+  	display: inline-block;
+  	text-align: center;
+  	left: -8px;
+  	top: 0px;
+  	padding-right:3px;
+
+}
+.about__resume-link:hover {
+  	color: #fff;
+  	background: #e85f61;
+  	box-shadow:3px 4px 8px rgba(0, 0, 6, .3);
+}
+.about__resume-link:hover:before {
+  	background: url(../images/icons/download.png) no-repeat;
+  	background-position:0 -14px;
+    transition: all 0 linear 0;
+ 	-webkit-transform:scale(0.9);
+ 	-ms-transform:scale(0.9);
+  	transform:scale(0.9);
+}
